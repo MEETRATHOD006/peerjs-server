@@ -1,0 +1,23 @@
+{
+  "name": "watch-together",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node peerjs-server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "peer": "^1.0.2"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
